@@ -1,0 +1,25 @@
+import React from 'react'
+
+const Nav = () => {
+    return (
+        <><div className='flex justify-between bg-gray-400 h-16'>
+            <ul className='flex gap-16 justify-center'>
+                <li>Home</li>
+                <li>All Course</li>
+                <li>About</li>
+                <li>Team</li>
+                <li>Pricing</li>
+                <li>Journal</li>
+                <li>Contact</li>
+            </ul>
+       
+           
+            <div className='bg-green-300'>
+            <h1>GET CERTIFICATE</h1>
+            </div>
+            </div>
+            </>
+    )
+}
+
+export default Nav
