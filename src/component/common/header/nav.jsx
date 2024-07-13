@@ -12,8 +12,6 @@ const Nav = () => {
                 <li>Journal</li>
                 <li>Contact</li>
             </ul>
-       
-           
             <div className='bg-green-300'>
             <h1>GET CERTIFICATE</h1>
             </div>
