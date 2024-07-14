@@ -12,7 +12,7 @@ const Nav = () => {
                 <li>Journal</li>
                 <li>Contact</li>
             </ul>
-            <div className='bg-green-300 items-center font-semibold flexgit'>
+            <div className='bg-green-300 items-center font-semibold flex '>
             <h1>GET CERTIFICATE</h1>
             </div>
             </div>
