@@ -13,8 +13,8 @@ function App() {
   return (<>
     <Head />
     <Nav />
-<Footer/>
-    </>
+    <Footer />
+  </>
   )
 }
 
