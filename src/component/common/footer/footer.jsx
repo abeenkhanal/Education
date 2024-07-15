@@ -17,6 +17,10 @@ const Footer = () => {
                         <FaTwitter className='cursor-pointer text-3xl hover:text-gray-500' />
                     </div>
                 </div>
+
+                <div>
+                    <h2 className='font-semibold'>Explore</h2>
+                </div>
             </div>
         </>
     )
