@@ -13,6 +13,7 @@ const Nav = () => {
                     <li className='cursor-pointer  hover:text-gray-500'>Journal</li>
                     <li className='cursor-pointer  hover:text-gray-500'>Contact</li>
                 </ul>
+                
                 <div className='flex justify-center items-center bg-gray-600  font-bold w-[240px]'>
                     <h1>GET CERTIFICATE</h1>
                 </div>
