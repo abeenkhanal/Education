@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa6";
 const Head = () => {
   return (
 
-    <div className='flex gap-8 justify-between py-3 text-white font-bold'>
+    <div className='flex  relative z-10 gap-8 justify-between py-3 text-white font-bold'>
       <div>
         <h1 className='font-bold text-3xl  cursor-pointer hover:text-gray-500'>ACADEMIA</h1>
         <h2 >ONLINE EDUCATION & LEARNING</h2>
