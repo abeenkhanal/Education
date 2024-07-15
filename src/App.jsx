@@ -8,8 +8,11 @@ import Nav from './component/common/header/nav'
 function App() {
   const [count, setCount] = useState(0)
 
-  return (
-    <><Head /><Nav /></>
+  return (<>
+    <Head />
+    <Nav />
+
+    </>
   )
 }
 

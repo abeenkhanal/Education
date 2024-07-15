@@ -2,10 +2,11 @@ import React from 'react'
 
 const Head = () => {
   return (
+    
     <div className='flex gap-8 justify-between'>
       <div>
-        <h1>ACADEMIA</h1>
-        <h2>ONLINE EDUCATION & LEARNING</h2>
+        <h1 className='font-bold text-3xl text-white cursor-pointer hover:text-gray-500'>ACADEMIA</h1>
+        <h2 className=' text-white' >ONLINE EDUCATION & LEARNING</h2>
        </div>
 
 
