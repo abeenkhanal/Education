@@ -2,7 +2,8 @@ import React from 'react'
 
 const Nav = () => {
     return (
-        <><div className='flex justify-between bg-gray-400 h-16'>
+        <>
+        <div className='flex justify-between bg-gray-400 h-16 text-white'>
             <ul className='flex gap-16 justify-center items-center font-bold cursor-pointer '>
                 <li>Home</li>
                 <li>All Course</li>
