@@ -7,6 +7,9 @@ import Nav from './component/common/header/nav'
 import footer from './component/common/footer/footer'
 import Footer from './component/common/footer/footer'
 import Homepage from './component/homebanner/homepage'
+import Learning from './component/learn/learning'
+import Blog from './component/blog/blog'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +25,8 @@ function App() {
         </div>
 
         <Homepage />
+        <Learning/>
+        <Blog/>
       </div>
     </>
   )
