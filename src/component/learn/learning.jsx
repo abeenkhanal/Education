@@ -6,11 +6,18 @@ const Learning = () => {
       <div className='w-full h-full'>
         <img className='h-full w-full' src="./second.webp" alt="" />
       </div>
+      <div>
+        <div>
+          <h3>LEARN ANYTHING</h3>
+          <h1>Benefits About Online Learning Expertise</h1>
+          
+        </div>
+      </div>
 
-<div>
+      <div>
 
-    
-</div>
+
+      </div>
 
 
 
