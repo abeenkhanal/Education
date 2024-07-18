@@ -2,9 +2,12 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div>
+    <div className='  relative '>
       
-    </div>
+        <div className='mx-auto w-10/12'>
+        hekki
+        </div>
+        </div>
   )
 }
 

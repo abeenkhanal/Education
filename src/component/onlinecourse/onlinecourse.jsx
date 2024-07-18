@@ -4,7 +4,9 @@ const Onlinecourse = () => {
   return (
     <div className='bg-primary '>
         <div>
-hello
+<h3>COURSES</h3>
+<h1>Browse Our Online Courses</h1>
+
         </div>
     </div>
   )
