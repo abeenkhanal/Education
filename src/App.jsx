@@ -8,6 +8,8 @@ import footer from './component/common/footer/footer'
 import Footer from './component/common/footer/footer'
 import Homepage from './component/homebanner/homepage'
 import Learning from './component/learn/learning'
+import Onlinecourse from './component/onlinecourse/onlinecourse'
+
 
 
 
@@ -42,6 +44,7 @@ function App() {
         </div>
         {/* <Blog/> */}
       </div>
+      <Onlinecourse/>
     </>
   )
 }

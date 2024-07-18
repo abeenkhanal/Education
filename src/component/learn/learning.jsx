@@ -43,13 +43,13 @@ const Learning = () => {
           {
             onlineLearnData.map((val, i) => {
               return (
-                <div className=' flex items-center gap-6 h-fit rounded-md bg-customgreen text-white duration-200 '>
-                  <div className='h-40 w-40 flex items-center justify-center'>
+                <div className=' flex items-center gap-6 h-fit rounded-3xl bg-slate-100 hover:bg-customgreen hover:text-white text-customgreen duration-200 '>
+                  <div className='h-40 w-40 flex items-center ml-5 justify-center'>
                     <img src={val.icon} alt=""></img>
 
                   </div>
-                  <div className='flex m-4 flex-col h-fit gap-4'>
-                    <div className='text-2xl font-semibold text-black'>
+                  <div className='flex m-1 flex-col h-fit gap-4'>
+                    <div className='text-2xl font-semibold  text-black'>
                       {val.title}
                     </div>
                     <div>
