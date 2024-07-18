@@ -8,7 +8,7 @@ import footer from './component/common/footer/footer'
 import Footer from './component/common/footer/footer'
 import Homepage from './component/homebanner/homepage'
 import Learning from './component/learn/learning'
-import Blog from './component/blog/blog'
+
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
 
   return (
     < >
-      <div className='  relative '>
+    <div className='  relative '>
         <div className='mx-auto w-10/12'>
           <Head />
         </div>
