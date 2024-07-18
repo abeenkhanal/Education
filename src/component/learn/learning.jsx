@@ -4,27 +4,27 @@ const Learning = () => {
   const onlineLearnData = [
     {
 
-      icon: 'online-learning.png',
+      icon: 'computer.png',
       title: 'Online Courses',
       paragraph: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
     },
 
     {
 
-      icon: 'online-learning.png',
+      icon: 'certi.png',
       title: 'Earn A Certificates',
       paragraph: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
     },
     {
 
-      icon: 'online-learning.png',
+      icon: 'experts.png',
       title: 'Learn with Expert',
       paragraph: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.'
     }
   ]
 
   return (
-    <div className='h-full w-10/12 mx-auto grid  grid-cols-2 gap-5'>
+    <div className=' grid h-full justify-between w-11/12 mx-auto gap-10  grid-cols-2 '>
       <div className='w-full h-full'>
         <img className='h-full w-full' src="./second.webp" alt="" />
       </div>
@@ -36,19 +36,20 @@ const Learning = () => {
         <div>
 
         </div>
-      </div>
+      
 
-      <div>
+      <div className='flex flex-col gap-14 mt-10 bg-red-600 group'>
 
         {
           onlineLearnData.map((val, i) => {
             return (
-              <div className='flex flex-col gap-1 mt-10 '>
-                <div>
-                  {val.icon}
+              <div className=' flex items-center gap-6 h-fit rounded-md bg-customgreen text-white duration-200 '>
+                <div className='h-20 w-40 flex items-center justify-center'>
+                <img src={val.icon} alt=""></img>
+                  
                 </div>
-                <div>
-                  <div>
+                <div className='flex flex-col h-fit gap-4'>
+                  <div className='text-2xl font-semibold text-black'>
                     {val.title}
                   </div>
                   <div>
@@ -64,7 +65,7 @@ const Learning = () => {
 
 
 
-
+      </div>
     </div>
   )
 }
