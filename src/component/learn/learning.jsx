@@ -28,7 +28,7 @@ const Learning = () => {
       <div className='w-full h-full'>
         <img className='h-full w-full' src="./second.webp" alt="" />
       </div>
-      <div className='justify-center gap-6 bg-white p-10 '>
+      <div className='justify-center gap-6 bg-white p-10 mt-14 '>
         <div className=''>
           <h3 className='font-semibold text-customgreen'>LEARN ANYTHING</h3>
           <h1 className='text-5xl font-semibold mt-5'>Benefits About Online Learning Expertise</h1>
@@ -36,32 +36,32 @@ const Learning = () => {
         <div>
 
         </div>
-      
 
-      <div className='flex flex-col gap-14 mt-10 bg-red-600 group'>
 
-        {
-          onlineLearnData.map((val, i) => {
-            return (
-              <div className=' flex items-center gap-6 h-fit rounded-md bg-customgreen text-white duration-200 '>
-                <div className='h-20 w-40 flex items-center justify-center'>
-                <img src={val.icon} alt=""></img>
-                  
-                </div>
-                <div className='flex flex-col h-fit gap-4'>
-                  <div className='text-2xl font-semibold text-black'>
-                    {val.title}
+        <div className='flex flex-col gap-1 mt-10 '>
+
+          {
+            onlineLearnData.map((val, i) => {
+              return (
+                <div className=' flex items-center gap-6 h-fit rounded-md bg-customgreen text-white duration-200 '>
+                  <div className='h-40 w-40 flex items-center justify-center'>
+                    <img src={val.icon} alt=""></img>
+
                   </div>
-                  <div>
-                    {val.paragraph}
+                  <div className='flex m-4 flex-col h-fit gap-4'>
+                    <div className='text-2xl font-semibold text-black'>
+                      {val.title}
+                    </div>
+                    <div>
+                      {val.paragraph}
+                    </div>
                   </div>
                 </div>
-              </div>
-            )
-          })
-        }
+              )
+            })
+          }
 
-      </div>
+        </div>
 
 
 
