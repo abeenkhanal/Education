@@ -85,11 +85,11 @@ const Onlinecourse = () => {
         <h1 className='text-4xl text-black font-semibold'>Browse Our Online Courses</h1>
 
       </div>
-      <div className='grid grid-cols-6 gap-2'>
+      <div className='grid grid-cols-6 gap-3 '>
       {OnlinecoursseData.map((val, i) => {
         return (
-          <div className="  border-black  gap-2   ">
-            <div className=' bg-white hover:bg-customgreen cursor-pointer group flex py-8 px-6 flex-col gap-5 items-center justify-center  duration-500 shadow-md'>
+          <div className="  border-black   ">
+            <div className=' bg-white hover:bg-customgreen cursor-pointer group flex py-12 px-6 flex-col gap-5 items-center justify-center  duration-500 shadow-md'>
               <div className='h-16 w-16 '>
                 <img src={val.icon} alt="" ></img>
               </div>
