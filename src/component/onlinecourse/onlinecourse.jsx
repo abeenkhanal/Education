@@ -53,7 +53,7 @@ const Onlinecourse = () => {
 
 
   return (
-    <div className='bg-primary text-center h-fit grid gap-10 '>
+    <div className='bg-primary text-center h-fit  gap-10 '>
       <div className=' '>
         <h3 className='text-xl text-customgreen font-semibold'>COURSES</h3>
         <h1 className='text-4xl text-black font-semibold'>Browse Our Online Courses</h1>
@@ -61,7 +61,7 @@ const Onlinecourse = () => {
       </div>
       {OnlinecoursseData.map((val, i) => {
         return (
-          <div className="grid grid-cols-6 border gap-2   ">
+          <div className="grid grid-cols-6 border gap-2  ">
             <div className=' bg-white hover:bg-customgreen cursor-pointer group flex py-8 px-6 flex-col gap-5 items-center justify-center  duration-500 shadow-md'>
               <div className='h-16 w-16 bg-mainbg'>
                 <img src={val.icon} alt="" ></img>
