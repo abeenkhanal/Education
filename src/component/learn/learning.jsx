@@ -24,7 +24,7 @@ const Learning = () => {
   ]
 
   return (
-    <div className=' grid h-full justify-between w-11/12 mx-auto gap-10  grid-cols-2 '>
+    <div className=' grid h-full justify-between w-10/12 mx-auto gap-10  grid-cols-2 '>
       <div className='w-full h-full'>
         <img className='h-full w-full' src="./second.webp" alt="" />
       </div>
