@@ -13,6 +13,7 @@ import Pricing from './component/pages/pricing'
 import Journal from './component/pages/journal'
 import Contact from './component/pages/contact'
 import Homepage from './component/homebanner/homepage'
+import Blog from './component/blog/blog'
 
 
 
@@ -30,6 +31,7 @@ function App() {
           <Nav />
         </div>
         <Homepage />
+        
 <Routes>
 <Route path='/' element={<Home />} />
 <Route path='/allcourse' element={<Allcourse/>}/>
@@ -39,7 +41,7 @@ function App() {
 <Route path='/journal' element={<Journal/>}/>
 <Route path='/contact' element={<Contact/>}/>
 </Routes>
-
+<Blog />
       </div>
     </>
   )

@@ -3,73 +3,73 @@ const Onlinecourse = () => {
   const OnlinecoursseData = [
     {
       id:1,
-      icon: 'book.png',
+      icon: 'uiux.png',
       title: 'UI/UX Design Courses',
       course: '25 course'
     },
     {
       id:2,
-      icon: 'book.png',
+      icon: 'art.png',
       title: 'Art & Design',
       course: '25 course'
     },
     {
       id:3,
-      icon: 'book.png',
+      icon: 'computer.png',
       title: 'Computer Science',
       course: '10 course'
     },
     {
       id:4,
-      icon: 'book.png',
+      icon: 'history.png',
       title: 'History & Archeologic',
       course: '25 course'
     },
     {
       id:5,
-      icon: 'book.png',
+      icon: 'software.png',
       title: 'Software Engineering',
       course: '25 course'
     },
     {
       id:6,
-      icon: 'book.png',
+      icon: 'information.png',
       title: 'Information Software',
       course: '25 course'
     },
     {
       id:7,
-      icon: 'book.png',
+      icon: 'health.png',
       title: 'Health & Fitness',
       course: '25 course'
     },
     {
       id:8,
-      icon: 'book.png',
+      icon: 'marketing.png',
       title: 'Marketing',
       course: '25 course'
     },
     {
       id:9,
-      icon: 'book.png',
+      icon: 'graphic.png',
       title: 'Graphic Design',
       course: '25 course'
     },
     {
       id:10,
-      icon: 'book.png',
+      icon: 'music.png',
       title: 'Music',
       course: '25 course'
     },
     {
       id:11,
-      icon: 'book.png',
+      icon: 'business.png',
       title: 'Business Administration',
       course: '25 course'
     },
     {
       id:12,
-      icon: 'book.png',
+      icon: 'web.png',
       title: 'Web Management',
       course: '25 course'
     },
@@ -79,10 +79,10 @@ const Onlinecourse = () => {
 
 
   return (
-    <div className='bg-white text-center h-screen  w-10/12 mx-auto gap-10 '>
-      <div className=' p-32'>
+    <div className='bg-white text-center h-screen mx-auto gap-10 p-16'>
+      <div className=' p-16 '>
         <h3 className='text-xl text-customgreen font-semibold'>COURSES</h3>
-        <h1 className='text-4xl text-black font-semibold'>Browse Our Online Courses</h1>
+        <h1 className='text-5xl text-black font-semibold'>Browse Our Online Courses</h1>
 
       </div>
       <div className='grid grid-cols-6 gap-3 '>
