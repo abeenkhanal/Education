@@ -89,7 +89,7 @@ const Onlinecourse = () => {
       {OnlinecoursseData.map((val, i) => {
         return (
           <div className="  border-black   ">
-            <div className=' bg-white hover:bg-customgreen cursor-pointer group flex py-12 px-6 flex-col gap-5 items-center justify-center  duration-500 shadow-md'>
+            <div className=' bg-slate-100 hover:bg-customgreen cursor-pointer group flex py-8 px-6 flex-col gap-5 items-center justify-center  duration-500 shadow-md'>
               <div className='h-16 w-16 '>
                 <img src={val.icon} alt="" ></img>
               </div>
