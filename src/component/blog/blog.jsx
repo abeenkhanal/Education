@@ -6,32 +6,58 @@ const Blog = () => {
     const BlogData = [
         {
             id: 1,
-            image: '',
+            image: 'blog1.jpg',
             icon: <BsFillPersonFill />,
             text: "Admin",
             calender: <SlCalender />,
             date: "JAN. 18 2002",
             icon2: <FaComment />,
-            comment: "3 comment"
-        }
+            comment: "3 comment",
+            heading:"Build your Dream Software & Engineering Career",
+            about:"A small river named Duden flows by their place and supplies it with the necessary regelialia."
+        },
+        {
+            id: 1,
+            image: 'blog1.jpg',
+            icon: <BsFillPersonFill />,
+            text: "Admin",
+            calender: <SlCalender />,
+            date: "JAN. 18 2002",
+            icon2: <FaComment />,
+            comment: "3 comment",
+            heading:"Build your Dream Software & Engineering Career",
+            about:"A small river named Duden flows by their place and supplies it with the necessary regelialia."
+        },
+        {
+            id: 1,
+            image: 'blog1.jpg',
+            icon: <BsFillPersonFill />,
+            text: "Admin",
+            calender: <SlCalender />,
+            date: "JAN. 18 2002",
+            icon2: <FaComment />,
+            comment: "3 comment",
+            heading:"Build your Dream Software & Engineering Career",
+            about:"A small river named Duden flows by their place and supplies it with the necessary regelialia."
+        },
     ]
     return (
-        <div className='p-16 h-screen text-center bg-white mx-auto'>
+        <div className='p-16 h-screen text-center flex flex-col gap-10 bg-white mx-auto'>
             <div className='  '>
                 <h3 className='text-xl text-customgreen font-semibold'>OUR BLOG</h3>
                 <h1 className='text-5xl text-black font-semibold'>Recent From Blog</h1>
 
             </div>
-            <div>
+            <div className='grid grid-cols-3 gap-10 '>
                 {BlogData.map((val, i) => {
                     return (
-                        <div>
-                            <div className=''>
-                                <div>
-                                    <img src={val.image} alt=""></img>
-                                </div>
-                                <div className=''>
-                                    <div className='flex'>
+                            <div key={i} className='border group overflow-clip w-11/12 pb-8 '>
+                                <div className='h-60 w-full overflow-clip '>
+                                    <img src={val.image} alt="" className='h-60 w-full transition-all  delay-75 ease-in-out group-hover:scale-110 duration-500 object-cover'></img>
+                                </div> 
+                              <div className='flex flex-col gap-2 p-3'>
+                              <div className='flex gap-2 '>
+                                    <div className='flex items-center gap-3'>
                                         <div>
                                             {val.icon}
                                         </div>
@@ -39,21 +65,31 @@ const Blog = () => {
                                             {val.text}
                                         </div>
                                     </div>
-                                    <div>
+                                 <div className='flex items-center gap-3'>
+                                 <div>
                                         {val.calender}
                                     </div>
-                                    <div>
+                                    <div className='text-sm'>
                                         {val.date}
                                     </div>
-                                    <div>
+                                 </div>
+                                  <div className='flex gap-2 items-center'>
+                                  <div>
                                         {val.icon2}
                                     </div>
-                                    <div>
+                                    <div className='text-sm'>
                                         {val.comment}
                                     </div>
+                                  </div>
+                                </div>
+                                <div className='font-semibold text-2xl mt-8'>
+                                    {val.heading}
+                                </div>
+                                <div className='text-left mt-3 text-customgreen font-serif'>
+                                    {val.about}
+                                </div>
                                 </div>
                             </div>
-                        </div>
                     )
                 })
                 }
