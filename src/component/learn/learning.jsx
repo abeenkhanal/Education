@@ -33,9 +33,7 @@ const Learning = () => {
           <h3 className='font-semibold text-customgreen'>LEARN ANYTHING</h3>
           <h1 className='text-5xl font-semibold mt-5'>Benefits About Online Learning Expertise</h1>
         </div>
-        <div>
-
-        </div>
+        
 
 
         <div className='flex flex-col gap-1 mt-10 '>

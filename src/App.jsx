@@ -9,11 +9,13 @@ import Home from './component/pages/home'
 import Allcourse from './component/pages/allcourse'
 import About from './component/pages/about'
 import Team from './component/pages/team'
-import Pricing from './component/pages/pricing'
+// import Pricing from './component/pages/pricing'
 import Journal from './component/pages/journal'
 import Contact from './component/pages/contact'
 import Homepage from './component/homebanner/homepage'
 import Blog from './component/blog/blog'
+import Pricing from './component/pricing/pricing'
+
 
 
 
@@ -42,6 +44,8 @@ function App() {
 <Route path='/contact' element={<Contact/>}/>
 </Routes>
 <Blog />
+<Pricing/>
+
       </div>
     </>
   )
