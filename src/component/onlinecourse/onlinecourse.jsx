@@ -88,15 +88,15 @@ const Onlinecourse = () => {
       <div className='grid grid-cols-6 gap-3 '>
       {OnlinecoursseData.map((val, i) => {
         return (
-          <div className="  border-black  bg-red-500  ">
-            <div className=' bg-slate-100 h-full hover:bg-customgreen cursor-pointer group flex py-8 px-6 flex-col gap-5 items-center justify-center  duration-500 shadow-md'>
+          <div className="  border-black  shadow-2xl ">
+            <div className=' bg-slate-100 rounded-md h-full hover:bg-customgreen cursor-pointer group flex py-8 px-6 flex-col gap-5 items-center justify-center  duration-500 shadow-md'>
               <div className='h-16 w-16 '>
                 <img src={val.icon} alt="" ></img>
               </div>
               <div className='text-md group-hover:text-white font-semibold text-black "'>
                 {val.title}
               </div>
-              <button className="text-customgreen group-hover:text-white">
+              <button className=" font-semibold text-customgreen  group-hover:bg-white rounded-md w-7/12">
                 {val.course}
               </button>
             </div>

@@ -38,7 +38,7 @@ const Pricing = () => {
       <div className='grid grid-cols-4  gap-8 '>
         {PricingData.map((val, i) => {
           return (
-            <div className='border shadow-lg mx-auto px-9 py-6' >
+            <div className='border shadow-lg mx-auto px-9 py-6 hover:shadow-2xl' >
               <div className='gap-10 flex flex-col '>
                 <div className='font-bold'>
                     {val.plan}
