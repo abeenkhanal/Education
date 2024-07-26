@@ -10,7 +10,7 @@ const News = () => {
       </div>
       <div className='bg-customgreen flex items-center w-full justify-between h-fit border-b text-white '>
             <input className='border-none bg-transparent text-lg placeholder-white focus:outline-none  w-52' type="email" placeholder='Enter Your Email '/>
-           <button><FaTelegramPlane /></button>
+           <button className='text-3xl'><FaTelegramPlane /></button>
       </div>
     </div>
   )
