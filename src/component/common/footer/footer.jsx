@@ -5,10 +5,13 @@ import { FaInstagram } from "react-icons/fa";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { BsCalendarDate } from "react-icons/bs";
 import { FaUser } from "react-icons/fa";
+import { FaMap } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 const Footer = () => {
     return (
-        <div className='bg-white w-full'>
-            <div className='w-11/12 mx-auto grid grid-cols-5 gap-6  p-20'>
+        <div className='bg-white w-full gap-3'>
+            <div className='w-11/12 mx-auto grid grid-cols-5   p-20'>
                 <div className=''>
                     <h1 className='font-extrabold text-4xl'>ACADEMIA</h1>
                     <h3 className=' font-medium text-sm text-gray-600'>ONLINE EDUCATION & LEARNING</h3>
@@ -39,9 +42,9 @@ const Footer = () => {
                         <li> <a href="" className='flex items-center text-gray-500 hover:text-gray-700 '><IoIosArrowRoundForward />Feedbacks Us</a></li>
                     </ul>
                 </div>
-                <div>
+                <div className=''>
                     <h2>Recent Posts</h2>
-                    <ul>
+                    <ul className='mt-7'>
                         <li className="mb-3">
                             <a href="#" className="flex items-center text-gray-600 hover:text-gray-900">
                                 <img src="./public/recent1.jpg" alt="post" className="w-14 h-14 rounded  mr-3" />
@@ -63,20 +66,30 @@ const Footer = () => {
                             </a>
                         </li>
                         <li className="mb-3">
-                            <a href="#" className="flex items-center text-gray-600 hover:text-gray-900">
+                            <a href="" className="flex items-center text-gray-600 hover:text-gray-900">
                                 <img src="./public/recent3.jpg" alt="post" className="w-14 h-14 rounded mr-3" />
                                 <div>
-                                <span className="text-xs text-gray-500">Jan. 18, 2021 - Admin</span>
+                                    <span className="text-xs text-gray-500">Jan. 18, 2021 - Admin</span>
                                     <p className="text-sm">Creativity and Inspiration</p>
-                                    
+
                                 </div>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div>
-                    Have a Questions?
+                <div className='mr '>
+                    <h3>Have a Questions?</h3>
+                    <ul className='mt-7'>
+                      
+                        <li className="text-gray-600 mb-2 flex place-items-start ">   <FaMap className='h-14 w-14 mr-3'/> 203 Fake St. Mountain View, San Francisco, California, USA</li>
+                        <li className="text-gray-600 mb-2 flex place-items-start">< FaPhoneAlt className='h-7 w-7 mr-3'/> +2 392 3929 210</li>
+                        <li className="text-gray-600 mb-2 flex place-items-start"> <FaTelegramPlane className='h-9 w-9 mr-3' />info@yourdomain.com</li>
+                    </ul>
                 </div>
+            </div>
+            <div className=''>
+                <h2 className='mx-auto w-10/12 flex justify-center'>Copyright ©2024 All rights reserved | This template is made with  by Abeen</h2>
+            
             </div>
         </div>
     )
