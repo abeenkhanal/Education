@@ -3,6 +3,8 @@ import Learning from '../learn/learning'
 import Onlinecourse from '../onlinecourse/onlinecourse'
 import Homepage from '../homebanner/homepage';
 import { FaArrowRight } from "react-icons/fa6";
+import Pricing from '../pricing/pricing';
+import Blog from '../blog/blog';
 
 const Home = () => {
     return (
@@ -24,8 +26,11 @@ const Home = () => {
             <div className=' bg-white '>
                 <Learning />
             </div>
-            {/* <Blog/> */}
-            <Onlinecourse />
+            
+            <div><Onlinecourse /></div>
+            <Blog />
+            <Pricing/>
+            
 
         </div>
     )
