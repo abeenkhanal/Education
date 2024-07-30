@@ -73,24 +73,15 @@ const Allcourse = () => {
                     <img src="/about.png" className='max-h-[80vh]' alt="" />
                 </div>
                 </div>
-                
-                <div>
-                  {coursesData.map((val, i)=> {
-                    return(
-                      <div>
-                        <div className=''>
-                          <img src={val.logo} alt="" ></img>
-                        </div>
-                        <div>
-                          {val.title}
-                        </div>
+                <div className='bg-white h-full'>
+                  {coursesData.map((val, i)=>{
+                  return(
+                    <div>
+                      <div >
+                        <img className='h-10' src={val.logo} alt="" ></img>
                       </div>
-                    )
-                  })
-                    
-
-
-                  
+                    </div>
+                  )})
                   }
                 </div>
        
