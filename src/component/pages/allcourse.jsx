@@ -10,60 +10,9 @@ const coursesData = [
     lectures: 50,
     hours: 190,
     price: "$100 All Course / $15 per month",
-    logo: "fas fa-laptop-code",
-  },
-  {
-    id:2,
-
-    title: "Enhancing Adobe Photoshop CC 2020 Skills",
-    rating: 5.0,
-    author: "John Smith",
-    lectures: 50,
-    hours: 190,
-    price: "$100 All Course / $15 per month",
-    logo: "fas fa-paint-brush",
-  },
-  {
-    id:3,
-    title: "HTML, CSS, and Javascript for Web Developers",
-    rating: 5.0,
-    author: "John Smith",
-    lectures: 50,
-    hours: 190,
-    price: "$100 All Course / $15 per month",
-    logo: "fas fa-code",
-  },
-  {
-    id:4,
-    title: "Introducing to Programming with WordPress",
-    rating: 5.0,
-    author: "John Smith",
-    lectures: 50,
-    hours: 190,
-    price: "$100 All Course / $15 per month",
-    logo: "fab fa-wordpress",
-  },
-  {
-    id:5,
-    title: "Introducing to Programming with WordPress",
-    rating: 5.0,
-    author: "John Smith",
-    lectures: 50,
-    hours: 190,
-    price: "$100 All Course / $15 per month",
-    logo: "fab fa-wordpress",
-  },
-  {
-    id:6,
-    title: "Introducing to Programming with WordPress",
-    rating: 5.0,
-    author: "John Smith",
-    lectures: 50,
-    hours: 190,
-    price: "$100 All Course / $15 per month",
     logo: "web.png",
   },
-];
+]
 const Allcourse = () => {
   return (
     <div>
@@ -73,13 +22,19 @@ const Allcourse = () => {
                     <img src="/about.png" className='max-h-[80vh]' alt="" />
                 </div>
                 </div>
-                <div className='bg-white h-full'>
+                <div className='bg-white h-full grid grid-cols-4'>
                   {coursesData.map((val, i)=>{
                   return(
-                    <div>
+                    <div className='flex p-14 items-center gap-2'>
                       <div >
-                        <img className='h-10' src={val.logo} alt="" ></img>
+                        <img className='h-14 bg-slate-500 rounded-full w-14' src={val.logo} alt="" ></img>
                       </div>
+                      <div>
+                      <div className='w-7/12 text-xl font-semibold'> 
+                        {val.title}
+                      </div>
+                      </div>
+                      
                     </div>
                   )})
                   }
