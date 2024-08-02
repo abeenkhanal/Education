@@ -55,12 +55,13 @@ const Team = () => {
     <div className='h-full w-full flex bg-gray-300 justify-center'>
           <img src="/about.png" className='max-h-[80vh]' alt="" />
         </div>
-    <div className="  bg-white mt-">
+    <div className="  bg-white ">
       
       
-      <div className="bg-white mt-14  w-9/12 mx-auto grid grid-cols-4 gap-7 ">
+      <div className="bg-white mt-20  w-10/12 mx-auto grid grid-cols-4 gap-7 ">
         {teamData.map((val, i) => {
           return (
+            <div className='mb-14'>
             <div className="pb-10 hover:bg-customgreen group rounded-xl shadow-2xl">
               <img src={val.image} alt="" ></img>
               <div className="mt-10 px-10  " >
@@ -68,6 +69,7 @@ const Team = () => {
 
                 <h1 className="text-gray-400 group-hover:text-white " key={i}>{val.work}</h1>
               </div>
+            </div>
             </div>
           );
         })}

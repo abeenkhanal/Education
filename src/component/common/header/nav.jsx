@@ -5,7 +5,7 @@ import Allcourse from '../../pages/allcourse';
 const Nav = () => {
     return (
         <>
-            <div className='absolute top-28 w-full flex z-10 bg-opacity-10 bg-red-500 justify-between h-16 text-white '>
+            <div className='absolute top-28 w-full flex z-10 bg-opacity-40  bg-gray-300  justify-between h-16 text-white '>
                 <ul className='m-3 flex gap-16 justify-center items-center font-bold  cursor-pointer'>
                     <li className='cursor-pointer  hover:text-gray-500'><NavLink to={"/"}>Home</NavLink></li>
                     <li className='cursor-pointer  hover:text-gray-500'><NavLink to={"/Allcourse"}>All Course</NavLink></li>
@@ -16,7 +16,7 @@ const Nav = () => {
                     <li className='cursor-pointer  hover:text-gray-500'><NavLink to={"/contact"}>Contact</NavLink></li>
                 </ul>
 
-                <div className='flex justify-center items-center bg-opacity-50 bg-gray-600  font-bold w-[240px]'>
+                <div className='flex justify-center items-center   bg-customgreen font-bold w-[240px]'>
                     <h1>GET CERTIFICATE</h1>
                 </div>
             </div>

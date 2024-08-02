@@ -6,6 +6,8 @@ import { FaArrowRight } from "react-icons/fa6";
 import Pricing from '../pricing/pricing';
 import Blog from '../blog/blog';
 
+
+
 const Home = () => {
     return (
         <div>
@@ -30,6 +32,7 @@ const Home = () => {
             <div><Onlinecourse /></div>
             <Blog />
             <Pricing/>
+
             
 
         </div>

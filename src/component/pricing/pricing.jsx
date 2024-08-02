@@ -30,7 +30,8 @@ const Pricing = () => {
   ]
 
   return (
-    <div className='bg-white text-center h-screen mx-auto flex flex-col gap-10  p-16 '>
+    
+    <div className='bg-white text-center h-screen mx-auto flex flex-col gap-10   p-16 '>
       <div className=''>
         <h3 className='font-semibold text-customgreen'>OUR PRICING</h3>
         <h1 className='text-5xl font-semibold mt-5'>Pricing & Packages</h1>
@@ -57,6 +58,7 @@ const Pricing = () => {
                 </div>
               </div>
             </div>
+            
 
           )
 
