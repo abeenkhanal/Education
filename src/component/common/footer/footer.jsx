@@ -66,10 +66,10 @@ const Footer = () => {
                             </a>
                         </li>
                         <li className="mb-3">
-                            <a href="" className="flex items-center text-gray-600 hover:text-gray-900">
+                        <a href="#" className="flex items-center text-gray-600 hover:text-gray-900">
                                 <img src="./public/recent3.jpg" alt="post" className="w-14 h-14 rounded mr-3" />
                                 <div>
-                                    <span className="text-xs text-gray-500">Jan. 18, 2021 - Admin</span>
+                                    <span className="text-xs text-gray-500 flex gap-1"> <BsCalendarDate />Jan. 18, 2021 <FaUser />Admin</span>
                                     <p className="text-sm">Creativity and Inspiration</p>
 
                                 </div>

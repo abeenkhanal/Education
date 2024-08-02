@@ -5,7 +5,8 @@ import Homepage from '../homebanner/homepage';
 import { FaArrowRight } from "react-icons/fa6";
 import Pricing from '../pricing/pricing';
 import Blog from '../blog/blog';
-
+import "react-multi-carousel/lib/styles.css";
+import Slider from '../slider/slider';
 
 
 const Home = () => {
@@ -28,7 +29,7 @@ const Home = () => {
             <div className=' bg-white '>
                 <Learning />
             </div>
-            
+            <Slider />
             <div><Onlinecourse /></div>
             <Blog />
             <Pricing/>
