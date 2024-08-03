@@ -18,7 +18,7 @@ import Blog from './component/blog/blog'
 // import Pricing from './component/pricing/pricing'
 import News from './component/news/news';
 import Footer from './component/common/footer/footer';
-import Slider from './component/slider/slider'
+
 
 
 

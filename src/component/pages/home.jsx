@@ -6,7 +6,8 @@ import { FaArrowRight } from "react-icons/fa6";
 import Pricing from '../pricing/pricing';
 import Blog from '../blog/blog';
 import "react-multi-carousel/lib/styles.css";
-import Slider from '../slider/slider';
+import Slider from '../testimonial/slider';
+
 
 
 const Home = () => {
