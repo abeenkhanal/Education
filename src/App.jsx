@@ -25,14 +25,14 @@ function App() {
   return (
     < >
       <div className='  relative '>
-        <div className='mx-auto w-10/12'>
+        <div className=''>
           <Head />
         </div>
         <div className='mx-auto  sticky top-0 bg-green-500 w-11/12'>
           <Nav />
         </div>
-        <Homepage />
-
+        {/* <Homepage /> */}
+{/* 
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/allcourse' element={<Allcourse />} />
@@ -41,7 +41,7 @@ function App() {
           <Route path='/pricing' element={<Pricing />} />
           <Route path='/journal' element={<Journal />} />
           <Route path='/contact' element={<Contact />} />
-        </Routes>
+        </Routes> */}
      
         {/* <Blog /> */}
        

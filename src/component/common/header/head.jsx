@@ -9,15 +9,16 @@ import { FaLinkedin } from "react-icons/fa6";
 const Head = () => {
   return (
 
-    <div className='flex absolute justify-between mx-auto top-0 z-10 gap-8 w-10/12 py-3 text-white font-bold'>
+    <div className='hidden bg-red-500 md:flex absolute justify-between mx-auto top-0 left-0 right-0 *:z-10  items-center lg:gap-8  md:w-11/12 
+     py-3 text-white font-bold'>
       <div>
         <h1 className='font-bold text-3xl  cursor-pointer hover:text-gray-500'>ACADEMIA</h1>
         <h2 >ONLINE EDUCATION & LEARNING</h2>
       </div>
 
-
-      <div className='flex justify-center'>
-        <div className='text-5xl'>
+ 
+      <div className='flex justify-center gap-3'>
+        <div className='lg:text-5xl md:text-3xl '>
           <MdOutlineAccessTime />
         </div>
         <div>
@@ -27,8 +28,8 @@ const Head = () => {
       </div>
 
 
-      <div className='flex justify-center'>
-        <div className='text-5xl'>
+      <div className='flex justify-center gap-3'>
+        <div className='lg:text-5xl md:text-3xl'>
           <FiPhone />
         </div>
         <div>

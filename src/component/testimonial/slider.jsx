@@ -66,10 +66,11 @@ const Slider = () => {
         autoPlay={true}
         autoPlaySpeed={3000}  // Set autoPlaySpeed to 3000 milliseconds (3 seconds)
         transitionDuration={500}
+        className='w-11/12 mx-auto'
         >
 
 {SliderData.map((value, i) => (
-          <div key={i} className=" items-start w-9/12 mx-auto">
+          <div key={i} className=" items-start w-11/12 mx-2">
             <div className="bg-gray-200 rounded-lg shadow-lg p-6 items-start text-center">
             <div className='flex items-start gap-7 '>
               <img

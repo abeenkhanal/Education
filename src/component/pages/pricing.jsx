@@ -1,4 +1,5 @@
 import React from 'react'
+import Rate from '../pricing/rate'
 
 
 
@@ -10,7 +11,7 @@ const Pricing = () => {
           <img src="/about.png" className='max-h-[80vh]' alt="" />
         </div>
         <div>
-          
+          <Rate />
         </div>
     </div>
   )
