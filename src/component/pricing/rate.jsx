@@ -1,6 +1,6 @@
 import React from 'react'
 import { CgDollar } from "react-icons/cg";
-const Pricing = () => {
+const Rate = () => {
   const PricingData = [
     {
       plan: "BASIC PLAN",
@@ -74,4 +74,4 @@ const Pricing = () => {
 
 }
 
-export default Pricing
+export default Rate

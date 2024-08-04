@@ -13,24 +13,11 @@ import Pricing from './component/pages/pricing'
 import Journal from './component/pages/journal'
 import Contact from './component/pages/contact'
 import Homepage from './component/homebanner/homepage'
-import Blog from './component/blog/blog'
+
 
 // import Pricing from './component/pricing/pricing'
 import News from './component/news/news';
 import Footer from './component/common/footer/footer';
-
-
-
-
-
-
-
- 
-
-
-
-
-
 
 function App() {
   const [count, setCount] = useState(0)
@@ -58,7 +45,7 @@ function App() {
      
         {/* <Blog /> */}
        
-        <News />
+        <News /> 
         <Footer />
 
       </div>

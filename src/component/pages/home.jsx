@@ -3,10 +3,11 @@ import Learning from '../learn/learning'
 import Onlinecourse from '../onlinecourse/onlinecourse'
 import Homepage from '../homebanner/homepage';
 import { FaArrowRight } from "react-icons/fa6";
-import Pricing from '../pricing/pricing';
+// import Pricing from '../pricing/rate';
 import Blog from '../blog/blog';
 import "react-multi-carousel/lib/styles.css";
 import Slider from '../testimonial/slider';
+import Rate from '../pricing/rate';
 
 
 
@@ -33,7 +34,7 @@ const Home = () => {
             <Slider />
             <div><Onlinecourse /></div>
             <Blog />
-            <Pricing/>
+            <Rate/>
 
             
 

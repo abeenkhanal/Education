@@ -6,19 +6,25 @@ const SliderData = [
     name: "Roger Scott",
     position: "Marketing Manager",
     text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    image: "https://via.placeholder.com/150"
+    image: "study.png"
   },
   {
     name: "Roger Scott",
     position: "Marketing Manager",
     text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    image: "https://via.placeholder.com/150"
+    image: "sliderprofile.jpg"
   },
   {
     name: "Roger Scott",
     position: "Marketing Manager",
     text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    image: "https://via.placeholder.com/150"
+    image: "recent1.jpg"
+  },
+  {
+    name: "Roger Scott",
+    position: "Marketing Manager",
+    text: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    image: "recent1.jpg"
   }
 ];
 
@@ -46,7 +52,12 @@ const Slider = () => {
         }
       };
   return (
-    <div className='bg-red-500 '>
+    
+    <div className=" bg-white" >
+      <div className='p-32'>
+        <h2 className='text-center font-semibold text-customgreen'>Testimonial</h2>
+      <h2 className="text-center text-4xl font-bold  ">Our Successful Students</h2>
+      </div>
        <Carousel responsive={responsive}
         swipeable={false}
         draggable={false}
@@ -58,22 +69,29 @@ const Slider = () => {
         >
 
 {SliderData.map((value, i) => (
-          <div key={i} className="p-8">
-            <div className="bg-white rounded-lg shadow-lg p-6 text-center">
+          <div key={i} className=" items-start w-9/12 mx-auto">
+            <div className="bg-gray-200 rounded-lg shadow-lg p-6 items-start text-center">
+            <div className='flex items-start gap-7 '>
               <img
-                className="w-24 h-24 rounded-full mx-auto"
+                className="w-24 h-24  rounded-full "
                 src={value.image}
-                alt={value.name}
+      
               />
-              <h3 className="text-xl font-semibold mt-4">{value.name}</h3>
+              <div className=''>
+              <h3 className="text-xl font-semibold text-start mt-4">{value.name}</h3>
               <p className="text-sm text-gray-600">{value.position}</p>
-              <p className="mt-4 text-gray-600">{value.text}</p>
+              </div>
+             </div>
+             <div className='items-start text-start'>
+              <p className="mt-4 text-gray-600 ">{value.text}</p>
+              </div>
             </div>
           </div>
         ))}
 
         </Carousel>
     </div>
+    
   )
 }
 
