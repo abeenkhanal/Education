@@ -32,16 +32,16 @@ function App() {
           <Nav />
         </div>
         {/* <Homepage /> */}
-{/* 
+
         <Routes>
-          <Route path='/' element={<Home />} />
+          {/* <Route path='/' element={<Home />} />
           <Route path='/allcourse' element={<Allcourse />} />
           <Route path='/about' element={<About />} />
           <Route path='/team' element={<Team />} />
           <Route path='/pricing' element={<Pricing />} />
-          <Route path='/journal' element={<Journal />} />
+          <Route path='/journal' element={<Journal />} /> */}
           <Route path='/contact' element={<Contact />} />
-        </Routes> */}
+        </Routes>
      
         {/* <Blog /> */}
        

@@ -5,18 +5,18 @@ const Contact = () => {
     
     <div className='bg-white h-fit  mx-auto'>
       <div className='h-full w-full flex bg-gray-300 justify-center'>
-          <img src="/about.png" className='max-h-[80vh]' alt="" />
+          <img src="/about.png" className='max-h-[80vh] md:max-h-[60vh] lg:max-h-[80vh]' alt="" />
         </div>
-    <div className="flex border-red-500 h-[700px] w-10/12 mx-auto ">
+    <div className="flex flex-col md:flex-row border-red-500 md:h-[700px] w-10/12 mx-auto ">
       
-      <div className="flex flex-col items-center justify-center w-1/2 bg-gray-200">
+      <div className="flex flex-col items-center justify-center w-1/2  bg-gray-200">
         
           <img  className='h-full w-full' src="./contact.jpg" alt="" />
        
       </div>
 
       
-      <div className="flex flex-col justify-center w-1/2 p-8">
+      <div className="flex flex-col justify-center w-full  p-8">
         <h2 className="text-2xl font-bold mb-4">Contact us</h2>
         <p className="mb-4">We're open for any suggestion or just to have a chat</p>
         <div className='flex justify-between'>
