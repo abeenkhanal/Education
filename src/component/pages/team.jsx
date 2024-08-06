@@ -55,10 +55,10 @@ const Team = () => {
     <div className='h-full w-full flex bg-gray-300 justify-center'>
           <img src="/about.png" className='max-h-[80vh]' alt="" />
         </div>
-    <div className="  bg-white ">
+    <div className="  bg-white  ">
       
       
-      <div className="bg-white mt-20  w-10/12 mx-auto grid grid-cols-4 gap-7 ">
+      <div className="bg-white mt-20  w-10/12 mx-auto grid lg:grid-cols-4 md:grid-cols-2  gap-7 ">
         {teamData.map((val, i) => {
           return (
             <div className='mb-14'>

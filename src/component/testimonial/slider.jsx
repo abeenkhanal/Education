@@ -54,9 +54,9 @@ const Slider = () => {
   return (
     
     <div className=" bg-white" >
-      <div className='p-32'>
-        <h2 className='text-center font-semibold text-customgreen'>Testimonial</h2>
-      <h2 className="text-center text-4xl font-bold  ">Our Successful Students</h2>
+      <div className='p-8 md:p-16 lag:p-32'>
+        <h2 className='text-center font-semibold text-customgreen text-lg md:text-xl lg:text-2xl'>Testimonial</h2>
+      <h2 className="text-center text-2xl md:text-3xl lg:text-4xl font-bold  ">Our Successful Students</h2>
       </div>
        <Carousel responsive={responsive}
         swipeable={false}
@@ -70,21 +70,21 @@ const Slider = () => {
         >
 
 {SliderData.map((value, i) => (
-          <div key={i} className=" items-start w-11/12 mx-2">
-            <div className="bg-gray-200 rounded-lg shadow-lg p-6 items-start text-center">
-            <div className='flex items-start gap-7 '>
+          <div key={i} className=" items-start w-full md:w-10/12 lg:w-11/12 mx-auto">
+            <div className="bg-gray-200 rounded-lg shadow-lg p-6 md:p-8 lg:p-10  items-start text-center">
+            <div className='flex flex-col md:flex-row items-center  md:items-start gap-4 md:gap-7 '>
               <img
                 className="w-24 h-24  rounded-full "
                 src={value.image}
       
               />
-              <div className=''>
-              <h3 className="text-xl font-semibold text-start mt-4">{value.name}</h3>
-              <p className="text-sm text-gray-600">{value.position}</p>
+              <div className='text-center md:text-left'>
+              <h3 className="text-lg md:text-xl lg:tex-2xl font-semibold text-start mt-4">{value.name}</h3>
+              <p className="text-sm  text-gray-600">{value.position}</p>
               </div>
              </div>
              <div className='items-start text-start'>
-              <p className="mt-4 text-gray-600 ">{value.text}</p>
+              <p className="mt-4text-sm md:text-base text-gray-600 ">{value.text}</p>
               </div>
             </div>
           </div>
