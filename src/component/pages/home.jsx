@@ -16,7 +16,7 @@ const Home = () => {
         <div>
         
             
-            <div className='h-screen w-full bg-transparent flex items-center'>
+            <div className='lg:h-screen h-96 w-full bg-transparent flex items-center'>
             <div className='flex md:w-10/12 w-11/12 lg:8/12 mx-auto flex-col gap-6'>
                 <h2 className='font-bold text-gray-400 text-xl md:text-2xl lg:text-3xl'>WELCOME TO ACADEMIA</h2>
                 <h1 className='font-bold text-2xl md:text-4xl lg:text-5xl w-full md:w-8/12 lg:w-6/12  text-white '>Best Online Education Expertise </h1>

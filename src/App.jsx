@@ -18,6 +18,7 @@ import Homepage from './component/homebanner/homepage'
 // import Pricing from './component/pricing/pricing'
 import News from './component/news/news';
 import Footer from './component/common/footer/footer';
+import State from './component/pages/state'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -41,6 +42,7 @@ function App() {
           <Route path='/pricing' element={<Pricing />} />
           <Route path='/journal' element={<Journal />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/state' element={<State/>}/>
         </Routes>
      
         {/* <Blog /> */}

@@ -79,9 +79,7 @@ const Blog = () => {
     ]
     return (
         <div className='bg-white'>
-          <div className='h-full w-full flex bg-gray-300 justify-center'>
-              <img src="/about.png" className='max-h-[80vh] md:max-h-[60vh] p-2 lg:max-h-[80vh]' alt="" />
-            </div>
+          
             <div>
             <div className='p-8 md:p-16 lag:p-32'>
         <h2 className='text-center font-semibold text-customgreen text-lg md:text-xl lg:text-2xl'>Testimonial</h2>
