@@ -19,6 +19,7 @@ import Homepage from './component/homebanner/homepage'
 import News from './component/news/news';
 import Footer from './component/common/footer/footer';
 import State from './component/pages/state'
+import Slider from './component/pages/slider'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -43,6 +44,7 @@ function App() {
           <Route path='/journal' element={<Journal />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/state' element={<State/>}/>
+          <Route path='/slider' element={<Slider/>}/>
         </Routes>
      
         {/* <Blog /> */}
