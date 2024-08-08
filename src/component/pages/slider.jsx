@@ -78,7 +78,7 @@ const Slider = () => {
     }
     return (
 
-        <div className='h-screen relative z-50 bg-white'>
+        <div className=' relative  h-screen z-50 bg-white'>
 
             {SliderData.map((value, i) => {
                     return (
@@ -89,20 +89,20 @@ const Slider = () => {
                     )
 
             })}
-            <div className='flex gap-32 justify-center bg-white '>
-                <button onClick={() => {
+            <div className='flex gap-32  absolute top-0 left-0 right-0 bottom-0 h-full w-full items-center   z-50 justify-between  '>
+                <button  onClick={() => {
                     if (index == 0) {
                         setindex(SliderData.length -1)
                     }
                     else {
                         setindex(index -1)
                     }
-                }} className='bg-red-300'>
+                }} className='bg-red-300 w-fit h-fit p-4'>
                     PREVIOUS
                 </button>
                 <button onClick={() => {
                   nextDa()
-                }} className='bg-red-300'>
+                }} className='bg-red-300 w-fit h-fit p-4'>
                     NEXT
                 </button>
             </div>
