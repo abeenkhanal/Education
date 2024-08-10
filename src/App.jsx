@@ -21,6 +21,7 @@ import Footer from './component/common/footer/footer';
 import State from './component/pages/state'
 import Slider from './component/pages/slider'
 import View from './component/pages/view'
+import Darazcard from './component/pages/darazcard';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -47,6 +48,7 @@ function App() {
           <Route path='/state' element={<State/>}/>
           <Route path='/slider' element={<Slider/>}/>
           <Route path='/View' element={<View />}/>
+          <Route path='/darazcard' element={<Darazcard />}/>
 
         </Routes>
      
