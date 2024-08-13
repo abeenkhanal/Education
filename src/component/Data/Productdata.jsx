@@ -6,7 +6,7 @@ export const  DarazcardData = [
         originalPrice: 3044,
         discount: 63,
         image: 'shirt.jpg',
-        rating: 1,
+        rating: 1.5,
         brand: "No Brand",
         promotion: "Min. spend Rs. 499",
 
@@ -18,7 +18,7 @@ export const  DarazcardData = [
         originalPrice: 3044,
         discount: 63,
         image: 'pant.jpg',
-        rating: 4,
+        rating: 4.5,
         brand: "No Brand",
         promotion: "Min. spend Rs. 499",
 

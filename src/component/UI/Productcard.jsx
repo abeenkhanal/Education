@@ -21,7 +21,7 @@ function Productcard({
 count={5}
 // onChange={ratingChanged}
 size={24}
-value={rating}
+value={rating }
 edit={false}
 isHalf={true}
 activeColor="#ffd700"
