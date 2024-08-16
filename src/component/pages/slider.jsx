@@ -63,7 +63,7 @@ const Slider = () => {
    
      return () => {
        clearTimeout(interval)
-     }
+     }                                                 
    }, [index])
    
 
