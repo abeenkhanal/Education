@@ -11,7 +11,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 const Footer = () => {
     return (
         <div className='bg-white w-full gap-3 py-6'>
-            <div className='w-11/12 mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8 pb-4'>
+            <div className=' md:grid-cols-4 lg:grid-cols-8 gap-8 pb-4'>
                 <div className='col-span-2 md:col-span-4 lg:col-span-2 flex flex-col gap-4'>
                     <h1 className='font-extrabold text-4xl'>ACADEMIA</h1>
                     <h3 className=' font-medium text-sm text-gray-600'>ONLINE EDUCATION & LEARNING</h3>
